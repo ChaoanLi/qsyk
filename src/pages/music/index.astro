@@ -13,9 +13,11 @@ const posts = await getCollection("blog");
 let tags = getUniqueTags(posts);
 ---
 
-<Layout title="轻松愉快的歌单">
-  <h1 class="mb-4 text-2xl font-bold">🍎 Apple Music</h1>
+<Layout title={`轻松愉快的歌单 | ${SITE.title}`} />
+<Header />
+<Main pageTitle="轻松愉快的歌单" pageDesc="ohaaayooo和他的小伙伴喜欢听的歌" />
 
+<section id="calendar-section" class="mb-10">
   <iframe
     allow="autoplay *; encrypted-media *;"
     frameborder="0"
@@ -24,4 +26,6 @@ let tags = getUniqueTags(posts);
     sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
     src="https://embed.music.apple.com/cn/playlist/%E8%BD%BB%E6%9D%BE%E6%84%89%E5%BF%AB/pl.u-d2b05gWCblzYJr"
   ></iframe>
-</Layout>
+</section>
+
+<Footer />
