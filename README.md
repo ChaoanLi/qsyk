@@ -4,6 +4,7 @@ This is a personal podcast website built with the [AstroPaper](https://github.co
 
 🏠 **Live Demo**: [https://qsyk.vercel.app/](https://qsyk.vercel.app/)
 
+[!logo](/assets/logo.png)
 ---
 
 ## Key Features
