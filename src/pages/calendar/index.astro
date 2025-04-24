@@ -13,12 +13,31 @@ const posts = await getCollection("blog");
 let tags = getUniqueTags(posts);
 ---
 
-<Layout title={`Tags | ${SITE.title}`}>
+<Layout title={`不愉快日历 | ${SITE.title}`}>
   <Header />
-  <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
+  <!-- <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
     <ul>
       {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
     </ul>
+  </Main> -->
+  <Main pageTitle="不愉快日历" pageDesc="把所有不愉快的事情记录下来！">
+    <!-- 🗓 倒霉日历 -->
+    <section id="calendar-section" class="mb-10">
+      <a
+        href="https://scented-stem-d53.notion.site/1dd051be0b95809db0fbc0a93c05be17?v=1dd051be0b95804aaba6000c6cad2da4"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-4 inline-block rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
+      >
+        🗓️ 查看/编辑共享日历
+      </a>
+    </section>
+
+    <!-- <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
+    <ul>
+      {page.data.map(data => <Card {...data} />)}
+    </ul> -->
   </Main>
+
   <Footer />
 </Layout>
