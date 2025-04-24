@@ -13,12 +13,15 @@ const posts = await getCollection("blog");
 let tags = getUniqueTags(posts);
 ---
 
-<Layout title={`Tags | ${SITE.title}`}>
-  <Header />
-  <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
-    <ul>
-      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
-    </ul>
-  </Main>
-  <Footer />
+<Layout title="轻松愉快的歌单">
+  <h1 class="mb-4 text-2xl font-bold">🍎 Apple Music</h1>
+
+  <iframe
+    allow="autoplay *; encrypted-media *;"
+    frameborder="0"
+    height="450"
+    style="width:100%;max-width:660px;overflow:hidden;background:transparent;"
+    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+    src="https://embed.music.apple.com/cn/playlist/%E8%BD%BB%E6%9D%BE%E6%84%89%E5%BF%AB/pl.u-d2b05gWCblzYJr"
+  ></iframe>
 </Layout>
