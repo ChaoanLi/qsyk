@@ -38,36 +38,21 @@ const challenges = [
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
         轻松愉快
       </h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="inline-block"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p class="mt-2">
-        Read the blog posts or check
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
+      <p class="mb-4 text-gray-600">@ohaaayooo, @frank 和好朋友们的闲聊播客</p>
+      <!-- 播客平台链接 -->
+      <div class="mt-4 flex flex-wrap justify-center gap-4 text-sm">
+        <a
+          href="https://feed.xyzfm.space/6vnv3ae7g34t"
+          target="_blank"
+          class="inline-flex items-center gap-2 rounded-md border border-accent px-3 py-1.5 text-accent transition hover:bg-accent hover:text-white"
+          aria-label="RSS Feed"
+          title="RSS 订阅"
         >
-          README
-        </LinkButton> for more info.
-      </p>
+          <IconRss class="h-4 w-4" />
+          RSS 订阅
+        </a>
+      </div>
+
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
