@@ -7,7 +7,6 @@ import { SITE } from "./src/config";
 import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
-  base: "/qsyk/",  // 仓库名要写对！前后有斜杠
   site: SITE.website,
   integrations: [
     react(),
