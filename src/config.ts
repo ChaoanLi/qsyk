@@ -1,9 +1,9 @@
 export const SITE = {
-  website: "https://qsyk.vercel.app/", // replace this with your deployed domain
+  website: "https://www.easypod.fun/", // replace this with your deployed domain
   author: "ohaaayooo",
-  profile: "https://qsyk.vercel.app/",
+  profile: "https://www.easypod.fun/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Easy Brezzy",
+  title: "easypod.fun",
   ogImage: "logo.png",
   lightAndDarkMode: true,
   postPerIndex: 4,

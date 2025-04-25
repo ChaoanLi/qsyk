@@ -20,7 +20,10 @@ const { page } = Astro.props;
 
 <Layout title={`小说，电影和想象有关的 | ${SITE.title}`}>
   <Header />
-  <Main pageTitle="Imagination" pageDesc="小说，电影和想象有关的.">
+  <Main
+    pageTitle="小说，电影和想象有关的"
+    pageDesc="文艺青年不是骂人的话么，爱装X还穷"
+  >
     <ul>
       {page.data.map(data => <Card {...data} />)}
     </ul>
