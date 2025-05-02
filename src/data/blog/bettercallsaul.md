@@ -2,7 +2,7 @@
 title: 《风骚律师》(Better Call Saul)
 author: ohaaayooo
 pubDatetime: 2025-05-01
-slug: recommend-bettercallsaul
+slug: bettercallsaul
 featured: false
 draft: false
 tags:

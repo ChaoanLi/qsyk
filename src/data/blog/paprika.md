@@ -2,7 +2,7 @@
 title: 《红辣椒》（Paprika）
 author: ohaaayooo
 pubDatetime: 2025-04-23
-slug: recommend-paprika
+slug: paprika
 featured: false
 draft: false
 tags:
