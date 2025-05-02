@@ -2,7 +2,7 @@
 
 This is a personal podcast website built with the [AstroPaper](https://github.com/yyy0806/astro-paper) theme, featuring podcast episodes, an "Unlucky Calendar", and a global food recommendations map.
 
-🏠 **Live Demo**: [https://qsyk.vercel.app/](https://qsyk.vercel.app/)
+🏠 **Live Demo**: [easypod.fun](easypod.fun)
 
 <!-- Scale to 1/4 of container width -->
 <img src="/public/logo.png" alt="logo" width="25%" />
