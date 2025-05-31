@@ -16,7 +16,6 @@ description: 一个光怪陆离的电影
 
 [豆瓣](https://movie.douban.com/subject/26816104/)
 
-
 ![21century](/assets/21century.png)
 
 ---
