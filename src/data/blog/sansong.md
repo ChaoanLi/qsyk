@@ -1,5 +1,5 @@
 ---
-title: 《怎么会有人婚礼办得像春晚啊？？？》——三送在这
+title: 《怎么会有人婚礼办得像春晚啊？？？》——三宋在这
 author: ohaaayooo
 pubDatetime: 2025-05-31
 slug: marriage
